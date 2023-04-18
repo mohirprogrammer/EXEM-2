@@ -1,0 +1,26 @@
+#head-nav {
+  height: 100px !important;
+  background-color: #BB2339 !important;
+  .tog {
+    background-color: #BB2339 !important;
+    z-index: 100px !important;
+    text-align: center !important;
+  }
+}
+
+.nav-link {
+  align-items: center !important;
+  color: white !important;
+  margin-left: 40px !important;
+  button {
+    margin-left: 50px !important;
+    color: white !important;
+    padding: 0 30px;
+    border-radius: 60px;
+    border: 1px solid white;
+    background: transparent !important;
+    p {
+      margin-top: 5px !important;
+    }
+  }
+}

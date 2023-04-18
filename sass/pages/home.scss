@@ -1,0 +1,142 @@
+@import "../layout/header";
+@import "../layout/footer";
+
+
+
+
+
+.loading-none {
+  opacity: 0;
+  z-index: -1;
+}
+
+.links {
+  margin-top: 70px;
+  display: flex;
+
+  li {
+    margin-left: 10px;
+    list-style-type: none;
+  }
+  a {
+    color: #AAAAAA;
+    text-decoration: none;
+  }
+  .links-a:hover {
+    color: #BB2339;
+  }
+}
+
+.menu-head {
+  display: block;
+  // grid-template-columns: 1fr 1fr;
+  .tab {
+    width: 428px;
+    height: 844px;
+    border-radius: 20px;
+    background-color: #BB2339;
+    border-radius: 20px;
+  margin-top: 70px;
+  h3 {
+    width: 348px;
+    margin-left: 40px;
+    margin-top: 50px !important;
+    color: white;
+    font-size: 40px;
+  }
+  .link-menu {
+    width: 348px;
+    margin-left: 40px;
+    margin-top: 40px;
+    button {
+      margin-bottom: 20px;
+      padding: 10px 30px !important;
+      background-color: transparent;
+      border: none;
+      border-radius: 100px;
+      a {
+        font-size: 16px;
+        text-decoration: none;
+        color: white !important;
+      }
+    }
+  }
+  }
+}
+
+.menu {
+  display: grid;
+  // grid-template-columns: 1fr 1fr;
+  margin-top: -760px;
+  margin-right: 400px;
+  margin-left: 416px;
+  .menu-item {
+    margin-top: 52px;
+    margin-left: 52px;
+    text-align: center;
+    h5 {
+      color: #BB2339;
+    }
+  }
+}
+
+.cor {
+  width: 100vw !important;
+  background-color: #F4F4F4;
+  margin-top: 3094px;
+  display: flex;
+  align-items: center;
+  margin-left: -130px;
+  .cor-about {
+    margin-left: 310px;
+    h6 {
+      margin-bottom: 8px;
+    }
+    h2 {
+      margin-top: 8px;
+      margin-bottom: 24px;
+    }
+    p {
+      width: 491px;
+      color: #AAAAAA;
+    }
+    button {
+      padding: 10px 20px;
+      border: 1px solid #BB2339;
+      border-radius: 100px;
+      color: black;
+      text-align: center;
+    }
+  }
+}
+
+.cor-item {
+  text-align: right !important;
+}
+
+.cor-img {
+  width: 401px !important;
+  height: 600px;
+  
+}
+
+.newsletter-item {
+  margin-top: 4650px;
+}
+
+footer {
+  margin-top: 300px !important;
+}
+
+@media (min-width:1200px) {
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cor {
+      margin-top: 1294px;
+  }
+  .newsletter-item {
+  margin-top: 2800px;
+}
+}
