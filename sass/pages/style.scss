@@ -149,7 +149,7 @@
 .cor-sec {
   // margin-top: -120px;
   height: 462px;
-  text-align: center;
+  text-align: center !important;
   background-color: #F8F8F8;
   h3 {
     color: #BB2339;
@@ -159,12 +159,25 @@
   }
 }
 
+.cor-cont {
+  text-align: center !important;
+  display: inline-block;
+  // margin-left: 100px;
+
+}
+
 .h3-cor {
+  position: relative;
   margin-top: 120px;
+  // margin-left: 90px !important;
+
 }
 
 .cor {
   background-color: #fff;
+  display: flex !important;
+  text-align: center !important; 
+
   border-radius: 14px;
   // display: flex;
   // margin-top: 100px;
